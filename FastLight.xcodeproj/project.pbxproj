@@ -23,6 +23,8 @@
 		C8C493271693A3B900B54430 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8C493251693A3B900B54430 /* InfoPlist.strings */; };
 		C8C4932A1693A3B900B54430 /* FastLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C493291693A3B900B54430 /* FastLightTests.m */; };
 		C8C493361693A76400B54430 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C493351693A76400B54430 /* AVFoundation.framework */; };
+		FC4ADE921712B249009272F4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4ADE911712B249009272F4 /* Icon.png */; };
+		FC4ADE941712B24B009272F4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4ADE931712B24B009272F4 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		C8C493291693A3B900B54430 /* FastLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastLightTests.m; sourceTree = "<group>"; };
 		C8C493331693A70B00B54430 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		C8C493351693A76400B54430 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FC4ADE911712B249009272F4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FC4ADE931712B24B009272F4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 		C8C492E91693A3B800B54430 = {
 			isa = PBXGroup;
 			children = (
+				FC4ADE931712B24B009272F4 /* Icon@2x.png */,
+				FC4ADE911712B249009272F4 /* Icon.png */,
 				C8C493351693A76400B54430 /* AVFoundation.framework */,
 				C8C493331693A70B00B54430 /* CoreVideo.framework */,
 				C8C492FE1693A3B800B54430 /* FastLight */,
@@ -237,6 +243,8 @@
 				C8C4930D1693A3B800B54430 /* Default@2x.png in Resources */,
 				C8C4930F1693A3B800B54430 /* Default-568h@2x.png in Resources */,
 				C8C493151693A3B800B54430 /* ViewController.xib in Resources */,
+				FC4ADE921712B249009272F4 /* Icon.png in Resources */,
+				FC4ADE941712B24B009272F4 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
